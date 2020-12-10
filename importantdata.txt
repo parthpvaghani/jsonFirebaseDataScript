@@ -1,0 +1,17 @@
+https://medium.com/lucas-moyer/how-to-import-json-data-into-firestore-2b370486b622
+
+
+Heaven: var firebaseConfig = {
+                      apiKey: "AIzaSyBhDiDYyLJ_xLb3mIs54mu4E08DMD2p9XM",
+                      authDomain: "vr-expo.firebaseapp.com",
+                      databaseURL: "https://vr-expo.firebaseio.com&quot;,
+                      projectId: "vr-expo",
+                      storageBucket: "vr-expo.appspot.com",
+                      messagingSenderId: "797131676470",
+                      appId: "1:797131676470:web:66d8dcec7ab3419d8e7197",
+                      measurementId: "G-6DBKV0FRP0"
+              };
+
+https://csvjson.com/
+
+Collection Name : credaiFilter(approx)

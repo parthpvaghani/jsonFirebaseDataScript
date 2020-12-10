@@ -1,0 +1,16 @@
+{
+  "name": "firebaseupload",
+  "version": "1.0.0",
+  "description": "",
+  "main": "JsonUploader.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node JsonUploader.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^7.24.0",
+    "moment": "^2.29.1"
+  }
+}
