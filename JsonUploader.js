@@ -1572,38 +1572,38 @@ let userArray = [
 
 
 
-userArray.forEach(obj=>{  
+// userArray.forEach(obj=>{  
 
 
-  let createAuthEntryPromise = new Promise((res,rej)=>{
-    admin.auth().createUser({
-      email: obj.Email.toLowerCase().trim(),
-      password: obj.Password.trim(),
-      emailVerified: false,
-      disabled: false
-    }).then(response=>{
-      console.log('account created succ.',response)
-      res(response)
-    }).catch(err=>{
-      console.log(err)
-    })
-  })
-  createAuthEntryPromise.then(res=>{
-    admin.firestore().collection('users').add({
-      contactNo:obj.Phone.toString().trim(),
-      country:obj.Country,
-      countryCode:obj.CountryCode.toString(),
-      date:new Date().getTime(),
-      emailId: res.email,
-      name:obj.Name,
-      status:true,
-      uid:res.uid,
-      userRole:'visitor',
-      companyName:obj.Company,
-      // isTestAuth:true
-    })
-    console.log('entered')
-  }).catch(err=>{
-    console.log(err)
-  })
-})
+//   let createAuthEntryPromise = new Promise((res,rej)=>{
+//     admin.auth().createUser({
+//       email: obj.Email.toLowerCase().trim(),
+//       password: obj.Password.trim(),
+//       emailVerified: false,
+//       disabled: false
+//     }).then(response=>{
+//       console.log('account created succ.',response)
+//       res(response)
+//     }).catch(err=>{
+//       console.log(err)
+//     })
+//   })
+//   createAuthEntryPromise.then(res=>{
+//     admin.firestore().collection('users').add({
+//       contactNo:obj.Phone.toString().trim(),
+//       country:obj.Country,
+//       countryCode:obj.CountryCode.toString(),
+//       date:new Date().getTime(),
+//       emailId: res.email,
+//       name:obj.Name,
+//       status:true,
+//       uid:res.uid,
+//       userRole:'visitor',
+//       companyName:obj.Company,
+//       // isTestAuth:true
+//     })
+//     console.log('entered')
+//   }).catch(err=>{
+//     console.log(err)
+//   })
+// })
