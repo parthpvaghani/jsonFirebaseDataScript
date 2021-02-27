@@ -10,7 +10,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "convert-firebase-timestamp": "0.0.4",
     "firebase": "^7.24.0",
+    "firebase-admin": "^9.5.0",
+    "firebase-functions": "^3.13.2",
     "moment": "^2.29.1"
   }
 }

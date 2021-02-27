@@ -9,6 +9,15 @@ const config = {
   messagingSenderId: "797131676470",
   appId: "1:797131676470:web:66d8dcec7ab3419d8e7197",
   measurementId: "G-6DBKV0FRP0"
+
+
+
+  // apiKey: 'AIzaSyAXTkHuSQ4OeoxdL1hur9NCAMiGmU_Arr0',
+  // authDomain: 'aepc-india.firebaseapp.com',
+  // databaseURL: 'https://aepc-india.firebaseio.com',
+  // projectId: 'aepc-india',
+  
+  // storageBucket: 'aepc-india.appspot.com'
 };
 firebase.initializeApp(config);
 
